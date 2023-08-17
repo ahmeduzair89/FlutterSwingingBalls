@@ -1,16 +1,40 @@
-# pendulum_app
+# 🚀Flutter Swinging Balls Animation🚀
 
-A new Flutter project.
+The animation of synchronized swinging balls is achieved through the use of Flutter's animation framework. Key animation-related aspects include:
+
+Animation Controllers: The app uses AnimationController instances to manage the animation of pendulums. These controllers dictate the timing and direction of pendulum swings.
+
+Tween Animations: The Tween class is employed to define the range of values that each pendulum property (such as rotation) spans over during the animation.
+
+RotationTransition: The RotationTransition widget is used to animate the swinging motion of each pendulum. It applies the appropriate rotations to mimic the swinging action.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run the app locally:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repository:
+<pre>
+git clone https://github.com/your-username/flutter-swinging-balls.git
+</pre>
+2. Navigate to the repository:
+<pre>
+cd flutter-swinging-balls
+</pre>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Install dependencies:
+<pre>
+flutter pub get
+</pre>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. Run the app:
+<pre>
+flutter run
+</pre>
+
+## Contributing
+
+Contributions are welcome! Feel free to submit pull requests or report issues.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
